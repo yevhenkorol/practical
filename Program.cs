@@ -89,7 +89,10 @@ namespace Lab05
                 Console.WriteLine($"\nІндекс маси тіла: {bmi:F2}");
                 Console.WriteLine($"Категорія: {category}");
                 Console.WriteLine($"Підсумок: {summary}");
-
+                if (IsAdiposity)
+                {
+                    System.Console.WriteLine("У вас ожиріння");
+                }
             }
         }
     }
