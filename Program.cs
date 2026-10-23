@@ -19,6 +19,7 @@ namespace Lab05
 
             double height;
             double mass;
+            bool IsAdiposity = false;
 
             // Перевірка коректності введених даних.
             if (!double.TryParse(heightInput.Replace(',', '.'), NumberStyles.Float,
@@ -67,6 +68,7 @@ namespace Lab05
                 else
                 {
                     category = "ожиріння";
+                    IsAdiposity = true;
                 }
 
                 // підсумкова категорія виразом switch з умовою when
@@ -87,6 +89,7 @@ namespace Lab05
                 Console.WriteLine($"\nІндекс маси тіла: {bmi:F2}");
                 Console.WriteLine($"Категорія: {category}");
                 Console.WriteLine($"Підсумок: {summary}");
+
             }
         }
     }

@@ -12,3 +12,4 @@ C:\Users\college-312-8\consoleapp\obj\Debug\net10.0\refint\consoleapp.dll
 C:\Users\college-312-8\consoleapp\obj\Debug\net10.0\consoleapp.pdb
 C:\Users\college-312-8\consoleapp\obj\Debug\net10.0\consoleapp.genruntimeconfig.cache
 C:\Users\college-312-8\consoleapp\obj\Debug\net10.0\ref\consoleapp.dll
+C:\Users\college-312-8\consoleapp\obj\Debug\net10.0\consoleapp.sourcelink.json
